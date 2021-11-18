@@ -30,6 +30,21 @@ class ViewController: UIViewController {
                     DispatchQueue.main.async {
                         HIDE_CUSTOM_LOADER()
                         
+                        
+//                        self.clwBackground.register(UINib(nibName: "ImageCell", bundle: nil), forCellWithReuseIdentifier: "ImageCell")
+                      //  let cell: ImageCell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCell", for: indexPath) as! ImageCell
+                        
+//                        let cellIdentifier = "SidemenuCell"
+//                        var cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? SidemenuCell
+//                        if cell == nil {
+//                            let nib = Bundle.main.loadNibNamed("SidemenuCell", owner: self, options: nil)
+//                            cell = nib?[0] as? SidemenuCell
+//                        }
+//                        cell?.layer.shouldRasterize = true
+//                        cell?.layer.rasterizationScale = UIScreen.main.scale
+//                        cell?.selectionStyle = .none
+                        
+                        
                     }
                 }
                 else{

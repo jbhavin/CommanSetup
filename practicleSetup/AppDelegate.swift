@@ -40,6 +40,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        UIApplication.shared.windows.first?.rootViewController = sideMenuController
 //        UIApplication.shared.windows.first?.makeKeyAndVisible()
 //    }
+    
+    
+//    let mainViewController = sideMenuController!
+//    let storyboard = UIStoryboard(name: "Home", bundle: nil)
+//    if self.arrSidemnu.object(at: indexPath.row) as? String == "Sign Out"{
+//        self.AlertBox(Message: "Are you sure you want to Sign Out?")
+//    }
+//    if self.arrSidemnu.object(at: indexPath.row) as? String == "Invite users"{
+//        let update = storyboard.instantiateViewController(withIdentifier: "InviteUserVC") as? InviteUserVC
+//        let navigationController = mainViewController.rootViewController as! UINavigationController
+//        navigationController.pushViewController(update ?? UIViewController(), animated: true)
+//        mainViewController.hideLeftView(animated: true, completionHandler: nil)
+//    }
+    
 
     // MARK: UISceneSession Lifecycle
 
